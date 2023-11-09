@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@300;400&family=Quicksand:wght@300&family=Roboto&display=swap');
+
+body {
+    background-color: #141414;
+}
+
+.fundo {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.quadrado {
+    width: 480px;
+    height: 550px;
+    border-radius: 20px;
+    border: solid 2px white;
+    margin: 0 auto;
+    margin-top: 90px;
+    z-index: 10;
+    backdrop-filter: blur(10px);
+}
+
+.profile-image {
+    width: 125px;
+    height: 125px;
+    border: 2px solid white;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 100%;
+    margin-left: 170px;
+}
+
+.edit {
+    color: cyan;
+    font-family: poppins;
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.Nome {
+    font-family: poppins;
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+}
+
+.Nome2 {
+    font-family: poppins;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
+
+.linha {
+    width: 100%;
+    border: 1px solid white;
+}
+
+.titulos {
+    font-family: poppins;
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.subtitulo {
+    font-family: poppins;
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+button {
+    width: 110px;
+    height: 45px;
+    font-size: 16px;
+    font-family: poppins;
+    padding: 5px;
+    margin-top: 25px;
+    margin-left: 185px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    margin-left: 20px;
+    padding: 10px;
+    height: 25px;
+    width: 160px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.65) 0px 5px 15px;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.input2 {
+    margin-left: 20px;
+    padding: 10px;
+    height: 25px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.65) 0px 5px 15px;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.fa-pencil {
+    color: white;
+    margin-left: -50px;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    z-index: 100;
+    cursor: pointer;
+}
